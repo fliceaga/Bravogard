@@ -1131,28 +1131,33 @@ figure img {
     Start Service Setails CSS
 ====================================================================
  ***/
-.single-service,
-.service-aside {
-    margin: 150px 0;
-}
-
-.single-service figure {
+ .single-service,
+ .service-aside {
+     margin: 150px 2.5%;
+ }
+ 
+ .single-service figure {
+    display: flex;
+    justify-content: center;
     padding-bottom: 10px;
-}
-
-.single-service > h2 {
-    font-size: 45px;
-    font-weight: 700;
-    color: #616161;
-    margin: 40px 0 15px;
-}
-
-.single-service > p {
-    font-size: 15px;
-    line-height: 28px;
-    color: #555b56;
-    padding: 10px 0;
-}
+ }
+ 
+ .single-service > h2 {
+     font-size: 45px;
+     font-weight: 100;
+     color: #616161;
+     margin: 40px 0 15px;
+     text-align: justify;
+ }
+ 
+ .single-service > p {
+     font-size: 15px;
+     line-height: 28px;
+     color: #555b56;
+     padding: 10px 0;
+     text-align: justify;
+ }
+ 
 
 .key-feature {
     display: -webkit-box;
