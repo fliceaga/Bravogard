@@ -1910,48 +1910,74 @@ figure img {
 }
 
 .contact-inner {
-    background: #f3f8ec;
-    padding: 80px 50px 50px;
+    background: #e5e5e5;
+    padding: 35px 25px 25px;
 }
 
 .contact-single {
-    padding: 30px;
+    padding: 40px;
     background: #fff;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     transition: all .3s ease;
 }
-
 .contact-single > i {
-    font-size: 70px;
+    font-size: 30px;
     color: #0B8E36;
 }
-
 .contact-single > h4 {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 100;
     color: #616161;
-    margin: 27px 0 16px;
+    margin: 14px 0 16px;
 }
-
+.contact-single1 > h4 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #616161;
+    margin: 6px 0 7px;
+}
+.contact-single1 > a {
+    font-size: 9.5px;
+    font-weight: 100;
+    color: #616161;
+}
+.contact-single1 > i {
+    font-size: 22px;
+    color: #0B8E36;
+}
+.contact-single1 {
+    padding: 40px;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
 .contact-single > p {
-    font-size: 20px;
-    color: #878c8f;
+    font-size: 15px;
+    font-weight: 100;
+    color: #616161;
 }
 
 .contact-single > i,
 .contact-single > h4,
+.contact-single1 > a,
+.contact-single1 > h4,
 .contact-single > p {
     transition: all .3s ease;
 }
 
 .contact-single:hover > i,
 .contact-single:hover > h4,
+.contact-single1:hover > h4,
+.contact-single1:hover > a,
+.contact-single1:hover > i,
 .contact-single:hover > p {
     color: #fff;
 }
 
-.contact-single:hover {
+.contact-single:hover,
+.contact-single1:hover {
     background: #0B8E36;
 }
 
@@ -1963,7 +1989,7 @@ figure img {
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
-    color: #616161;
+    color: #3AAA35;
     text-align: center;
     margin: 140px 0 47px;
 }
@@ -2141,8 +2167,8 @@ footer {
 }
 
 .footer-top {
-    margin-top: 120px;
-    transform: translateY(-50%);
+    margin-top: 1px;
+    transform: translateY(-20%);
 }
 
 .call-to-action {
@@ -2160,7 +2186,7 @@ footer {
     content: '';
     width: 100%;
     height: 100%;
-    background: #616161;
+    background: #e5e5e5;
     box-shadow: inset 0 -6px 0 #0B8E36;
     top: 0;
     left: 0;
@@ -2171,7 +2197,7 @@ footer {
     font-size: 40px;
     line-height: 60px;
     font-weight: 700;
-    color: #fff;
+    color: #616161;
     width: 50%;
 }
 
