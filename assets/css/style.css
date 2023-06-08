@@ -44,7 +44,7 @@ CSS INDEXcontainer
 }
 
 body {
-    font-family: 'Montserrat';
+    font-family: Montserrat, sans-serif;
     background: #fff;
     overflow-x: hidden;
 }
@@ -255,14 +255,14 @@ figure img {
  ***/
  .section-header > h2 {
     font-size: 40px;
-    font-family: 'roboto', sans-serif;
+    font-family: roboto, sans-serif;
     font-weight: 100;
     line-height: 50px;
 }
 
 .section-header > p {
     font-size: 17px;
-    font-family: 'open sans light', sans-serif;
+    font-family: "open sans light", sans-serif;
     font-weight: 5;
     line-height: 27px;
     margin: 23px auto 0;
@@ -341,9 +341,10 @@ figure img {
 
 .pageBanner-content > h1 {
     font-size: 100px;
-    font-weight: 700;
+    font-family: roboto;
+    font-weight: 100;
     line-height: 110px;
-    color: #fff;
+    color: #e5e5e5;
 }
 
 .breadcrumbs {
@@ -521,13 +522,14 @@ figure img {
     font-family: roboto;
     line-height: 110px;
     font-weight: 100;
-    color: #fff;
+    color: #fafdfa;
 }
 
 .slider-content > p {
     font-size: 20px;
+    /*font-family: roboto, sans-serif;*/
     line-height: 35px;
-    color: #fff;
+    color: #e5e5e5;
     letter-spacing: .2px;
     margin: 22px 0 44px;
 }
@@ -917,7 +919,7 @@ figure img {
 
 .welcome-section section > h2 {
     font-size: 52px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 62px;
     color: #616161;
 }
@@ -1069,7 +1071,7 @@ figure img {
 
 .service-card > h2 > a {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 100;
     color: #616161;
     transition: all .3s ease;
 }
@@ -1327,7 +1329,7 @@ figure img {
 
 .widget-single > h2 {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 100;
     color: #616161;
 }
 
@@ -1372,7 +1374,7 @@ figure img {
 .widget-single .searchform::after {
     position: absolute;
     content: "\ed12";
-    font-family: "open sans light";
+    font-family: "open sans light", sans-serif;
     position: absolute;
     top: 50%;
     right: 22px;
@@ -1527,7 +1529,7 @@ figure img {
 .video-content > h2 {
     font-size: 52px;
     line-height: 62px;
-    font-weight: 700;
+    font-weight: 100;
     margin-bottom: 20px;
     color: #616161;
 }
@@ -1987,7 +1989,7 @@ figure img {
 
 .contact-form h2 {
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 55px;
     color: #3AAA35;
     text-align: center;
@@ -2291,7 +2293,7 @@ footer {
 .footer-col > h2 {
     font-size: 25px;
     line-height: 28px;
-    font-weight: 700;
+    font-weight: 100;
     color: #616161;
     margin-bottom: 35px;
 }
