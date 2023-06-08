@@ -919,6 +919,7 @@ figure img {
 
 .welcome-section section > h2 {
     font-size: 52px;
+    font-family: roboto, sans-serif;
     font-weight: 100;
     line-height: 62px;
     color: #616161;
@@ -947,7 +948,8 @@ figure img {
 
 .welcomeTab-list li a {
     font-size: 25px;
-    font-weight: 700;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
     color: #fff;
     background: #616161;
     display: block;
