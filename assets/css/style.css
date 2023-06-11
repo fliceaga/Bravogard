@@ -819,7 +819,7 @@ figure img {
     font-size: 30px;
     line-height: 25px;
     color: #555b56;
-    column-count: 2;
+    /*column-count: 2;*/
     column-gap: 70px;
     column-rule: 4px solid #616161;
     margin-bottom: 60px;
@@ -1138,6 +1138,7 @@ figure img {
  ***/
  .single-service,
  .service-aside {
+
      margin: 150px 2.5%;
  }
  
@@ -1669,7 +1670,7 @@ figure img {
  ***/
 .partners-section {
     padding: 142px 0 150px;
-    background: url(../img/bg/04.jpg) no-repeat center center / cover;
+    background: url(../img/bg/industrial.jpg) no-repeat center center / cover;
     position: relative;
     z-index: 1;
 }
