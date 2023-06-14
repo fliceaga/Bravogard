@@ -2457,3 +2457,19 @@ footer {
     End Footer Secion CSS
 ====================================================================
  ***/
+ 
+@media (max-width: 767px) {
+    .partners-container .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .partners-container .col-lg-3,
+    .partners-container .col-md-4,
+    .partners-container .col-sm-6 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+  
+
