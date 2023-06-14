@@ -61,7 +61,7 @@ textarea::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb,
 textarea::-webkit-scrollbar-thumb {
-    background: #0B8E36;
+    background: #616161;
     min-height: 62px
 }
 
@@ -1136,34 +1136,56 @@ figure img {
     Start Service Setails CSS
 ====================================================================
  ***/
- .single-service,
- .service-aside {
+.single-service {
+    margin: 150px 2% 50px;
+    margin-bottom: 75px;
+}
 
-     margin: 150px 2.5%;
- }
- 
- .single-service figure {
+.service-content {
     display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
+    background: linear-gradient(to right, #616161, #3AAA35);
+    position: relative;
+}
+
+.image-container {
     flex: 1;
- }
- 
- .single-service > h2 {
-     font-size: 45px;
-     font-weight: 100;
-     color: #616161;
-     margin: 40px 0 15px;
-     text-align: justify;
- }
- 
- .single-service > p {
-     font-size: 15px;
-     line-height: 28px;
-     color: #555b56;
-     padding: 10px 0;
-     text-align: justify;
- }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    margin-top: -7%;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    opacity: 95%;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.single-service > a {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.single-service > p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #fff;
+    margin: 0;
+    text-align: justify;
+}
  
 
 .key-feature {
@@ -1561,7 +1583,7 @@ figure img {
     content: '';
     width: 80%;
     height: 100%;
-    background: #fff;
+    background: #3AAA35;
     top: 70px;
     left: -70px;
     z-index: -1;
@@ -2417,7 +2439,7 @@ footer {
 }
 
 .footer-bottom {
-    padding: 20px 0;
+    padding: 15px 0;
     background: #0B8E36;
 }
 
