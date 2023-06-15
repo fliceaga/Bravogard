@@ -254,7 +254,7 @@ figure img {
 ====================================================================
  ***/
  .section-header > h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: roboto, sans-serif;
     font-weight: 100;
     line-height: 50px;
@@ -1143,7 +1143,7 @@ figure img {
 
 .service-content {
     display: flex;
-    background: linear-gradient(to right, #616161, #3AAA35);
+    background: linear-gradient(to right, #3f8e42, #4eaa36);
     position: relative;
 }
 
@@ -1155,14 +1155,13 @@ figure img {
     padding: 20px;
     position: relative;
     z-index: 2;
-    margin-top: -7%;
+    margin-bottom: -3%;
 }
 
 .image-container img {
     max-width: 100%;
     max-height: 100%;
     height: auto;
-    opacity: 95%;
 }
 
 .text-container {
