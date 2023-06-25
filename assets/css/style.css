@@ -1137,7 +1137,7 @@ figure img {
 ====================================================================
  ***/
 .single-service {
-    margin: 300px 2% 50px;
+    margin: 150px 2% 50px;
     margin-bottom: 75px;
 }
 
@@ -1148,8 +1148,7 @@ figure img {
 
 .service-content {
     display: flex;
-    background-color: #3f8e42;
-    opacity: 95%;
+    background-color: #e5e5e5;
     position: relative;
 }
 
@@ -1158,9 +1157,10 @@ figure img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 45px;
+    padding: 20px;
     position: relative;
-    z-index: 10;
+    z-index: .5;
+    margin-bottom: 1%;
 }
 
 .image-container img {
@@ -2096,7 +2096,7 @@ figure img {
 }
 
 .contact-page .footer-top {
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 /*** 
@@ -2212,7 +2212,7 @@ footer {
 }
 
 .footer-top {
-    margin-top: 5px;
+    margin-top: 150px;
     transform: translateY(-20%);
 }
 
