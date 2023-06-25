@@ -1772,7 +1772,7 @@ figure img {
 }
 @media (max-width: 767px) {
     .partners-container .row {
-      display: inline;
+      display: flex;
       flex-wrap: wrap;
     }
   
@@ -2212,7 +2212,7 @@ footer {
 }
 
 .footer-top {
-    margin-top: 50px;
+    margin-top: 5px;
     transform: translateY(-20%);
 }
 
