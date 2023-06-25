@@ -1137,26 +1137,30 @@ figure img {
 ====================================================================
  ***/
 .single-service {
-    margin: 150px 2% 50px;
+    margin: 300px 2% 50px;
     margin-bottom: 75px;
+}
+
+.spacer {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .service-content {
     display: flex;
-    background: linear-gradient(to right, #3f8e42, #4eaa36);
+    background-color: #3f8e42;
     opacity: 95%;
     position: relative;
 }
 
 .image-container {
-    flex: 1.5;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 45px;
     position: relative;
-    z-index: 0;
-    margin-bottom: 5%;
+    z-index: 10;
 }
 
 .image-container img {
@@ -1584,8 +1588,8 @@ figure img {
     width: 80%;
     height: 100%;
     background: #3AAA35;
-    top: 70px;
-    left: -70px;
+    top: 45px;
+    left: -45px;
     z-index: -1;
 }
 
@@ -1691,7 +1695,7 @@ figure img {
 ====================================================================
  ***/
 .partners-section {
-    padding: 142px 0 150px;
+    padding: 145px 0 150px;
     background: url(../img/bg/industrial.jpg) no-repeat center center / cover;
     position: relative;
     z-index: 1;
@@ -1709,7 +1713,7 @@ figure img {
 }
 
 .partners-section .section-header {
-    margin-bottom: 96px;
+    margin-bottom: 100px;
 }
 
 .partners-container figure > a {
@@ -1722,7 +1726,7 @@ figure img {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    line-height: 150px;
+    line-height: flex;
     height: 150px;
     position: relative;
 }
@@ -1768,7 +1772,7 @@ figure img {
 }
 @media (max-width: 767px) {
     .partners-container .row {
-      display: flex;
+      display: inline;
       flex-wrap: wrap;
     }
   
@@ -2208,7 +2212,7 @@ footer {
 }
 
 .footer-top {
-    margin-top: 1px;
+    margin-top: 50px;
     transform: translateY(-20%);
 }
 
