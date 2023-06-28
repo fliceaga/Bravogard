@@ -9,7 +9,7 @@
     border-bottom: 2px solid #635AF2;
 }
 .header-light .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: red;
+    background: #616161;
 }
 .main-header {
     position: absolute;
@@ -17,7 +17,7 @@
     top: 0px;
     z-index: 999;
     width: 100%;
-    background: #e5e5e5;
+    background: #fafdfa;
 }
 .header-upper {
     position: relative;
@@ -155,7 +155,7 @@
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current-menu-item > a,
 .main-menu .navigation > li.current-menu-parent > a {
-    background: #fafdfa;
+    background: #e5e5e5;
 }
 
 /* ============ Start Sticky Header css ============*/

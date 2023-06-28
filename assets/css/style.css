@@ -1,9 +1,4 @@
 /*
-Template Name: Truder - CCTV Security Service Agency HTML5 Template
-Document: Main Style Sheet
-Author: designTone
-Author URL: https://themeforest.net/user/designtone
-
 ---------
 CSS INDEXcontainer
 ---------
@@ -196,7 +191,7 @@ figure img {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #ffffff;
+    background-color: #fafdfa;
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../img/preloader.gif);
@@ -589,7 +584,7 @@ figure img {
     text-align: center;
     border-radius: 100%;
     background: #e5e5e5;
-    color: #113417;
+    color: #0B8E36;
     opacity: 1;
     position: absolute;
     display: block;
@@ -883,7 +878,7 @@ figure img {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(130, 182, 11, 0.9);
+    background: #3baa35e4;
     top: 0;
     left: 0;
     visibility: hidden;
@@ -895,7 +890,7 @@ figure img {
 .about-gallery-list li > a:not(.active):hover::before {
     visibility: visible;
     opacity: 1;
-    background: rgba(130, 182, 11, 0.5);
+    background: #0b8e36e4;
 }
 
 .about-gallery-list li > a.active::before {
@@ -1695,7 +1690,7 @@ figure img {
 }
 
 .team-section .team-member:hover > figcaption {
-    border-left: 8px solid #0B8E36;
+    border-left: 8px solid #3f8e42;
 }
 
 .team-section .team-member > figcaption > h3 {
