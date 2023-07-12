@@ -1278,10 +1278,11 @@ figure img {
 }
 
 #faq-wraper .card + .card {
-    margin-top: 10px;
+    scroll-margin-top: 8ex;
 }
 
 #faq-wraper .card-header {
+    scroll-margin-top: 8ex;
     background: transparent;
     border: none;
     padding: 0;
@@ -2498,19 +2499,7 @@ footer {
 
 .footer-bottom p > span {
     font-weight: 100;
-}
-
-.animar {
-    opacity: 1;
-    transform: translateX(0);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  
-  .elemento-a-animar {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  
+}  
 /*** 
 ====================================================================
     End Footer Secion CSS
