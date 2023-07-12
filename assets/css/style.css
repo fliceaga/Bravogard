@@ -1227,7 +1227,7 @@ figure img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .key-feature > i {
@@ -2499,6 +2499,18 @@ footer {
 .footer-bottom p > span {
     font-weight: 100;
 }
+
+.animar {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .elemento-a-animar {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
 /*** 
 ====================================================================
     End Footer Secion CSS

@@ -44,7 +44,8 @@
 }
 
 .icofont-email:before {
-    content: "\ef12"
+    content: "\ef12";
+    margin-right: 10px;
 }
 
 .icofont-facebook:before {
