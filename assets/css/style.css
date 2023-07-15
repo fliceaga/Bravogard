@@ -320,7 +320,7 @@ figure img {
 ====================================================================
  ***/
 .innerPage-banner {
-    background: url(../img/bg/05.jpg) no-repeat center center / cover;
+    background: url(../img/bg/nosotros.jpg) no-repeat center center / cover;
     position: relative;
     z-index: 1;
 }
@@ -2257,7 +2257,7 @@ footer {
     align-items: center;
     padding: 57px 100px 63px;
     justify-content: space-between;
-    background: url("../img/bg/C05.jpg") center center / cover no-repeat;
+    background: url("../img/bg/Cnosotros.jpg") center center / cover no-repeat;
 }
 
 .call-to-action::before {
