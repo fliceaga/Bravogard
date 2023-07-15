@@ -28,19 +28,19 @@
 }
 
 .icofont-chart-histogram-alt:before {
-    content: "\e97e"
+    content: "\e97e";
 }
 
 .icofont-checked:before {
-    content: "\eed9"
+    content: "\eed9";
 }
 
 .icofont-double-left:before {
-    content: "\ea7b"
+    content: "\ea7b";
 }
 
 .icofont-double-right:before {
-    content: "\ea7c"
+    content: "\ea7c";
 }
 
 .icofont-email:before {
@@ -146,6 +146,11 @@
 
 .icofont-twitter:before {
     content: "\ed7a"
+}
+
+.icofont-heart-beat:before
+{
+    content: "\ef45"
 }
 
 .icofont-xs {
