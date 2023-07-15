@@ -326,13 +326,13 @@ figure img {
 }
 
 .innerPage-banner_services {
-    background: url(../img/bg/BannerServicios.png) no-repeat center center / cover;
+    background: url(../img/bg/BannerServicios.jpg) no-repeat center center / cover;
     position: relative;
     z-index: 1;
 }
 
 .innerPage-banner-contacto {
-    background: url(../img/bg/directivos.jpg) no-repeat center center / cover;
+    background: url(../img/bg/contactanos.jpg) no-repeat center center / cover;
     position: relative;
     z-index: 1;
 }
@@ -1102,14 +1102,14 @@ figure img {
 }
 
 .service-card > h2 > a {
-    font-size: 28px;
+    font-size: 14px;
     font-weight: 100;
     color: #616161;
     transition: all .3s ease;
 }
 
 .service-card > p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 26px;
     color: #616161;
     transition: all .3s ease;
@@ -1117,8 +1117,8 @@ figure img {
 
 .service-card > a {
     color: #616161;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 100;
     margin-top: 15px;
     position: relative;
     margin-bottom: auto;
@@ -2257,7 +2257,7 @@ footer {
     align-items: center;
     padding: 57px 100px 63px;
     justify-content: space-between;
-    background: url("../img/bg/05.jpg") center center / cover no-repeat;
+    background: url("../img/bg/C05.jpg") center center / cover no-repeat;
 }
 
 .call-to-action::before {
