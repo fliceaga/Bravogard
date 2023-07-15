@@ -1253,16 +1253,17 @@ figure img {
 }
 
 .feature-content > h3 {
+    font-family: "open sans light", sans-serif;
     font-size: 25px;
-    line-height: 35px;
+    line-height: 50px;
     font-weight: 100;
     color: #616161;
 }
 
 .feature-content > p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 28px;
-    color: #13cc32;
+    color: #616161;
 }
 
 #faq-wraper {
